@@ -1,0 +1,6 @@
+CREATE TABLE Users (
+  emailID varchar(100) primary key not null,
+  userType varchar(50) not null,
+  username varchar(50) not null,
+  password varchar(50) not null
+);
